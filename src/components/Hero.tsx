@@ -8,8 +8,8 @@ import JAVASCRIPT from "../assets/icons/javascript.svg";
 import REACT from "../assets/icons/react.svg";
 import TAILWIND from "../assets/icons/tailwind.svg";
 import TYPESCRIPT from "../assets/icons/typescript.svg";
-import IMG from "../assets/img-new.jpg";
-// import MONGODB from "../assets/icons/mongodb.svg";
+// import IMG from "../assets/img-new.jpg";
+import MONGODB from "../assets/icons/mongodb.svg";
 
 const Hero = () => {
   return (
@@ -32,18 +32,19 @@ const Hero = () => {
             </span>
           </div>
           {/* <img className="mypic" src={MYPIC}/> */}
-          <img className="mypic" src={IMG}/>
+          {/* <img className="mypic" src={IMG}/> */}
+          <div className="hero-img"></div>
         </div>
-        <div className="skills flex">
+        <div className="skills">
           <p>Tech Stack </p>
-          <ul className="flex justify-between">
-            <li className="flex align-middle"> <img height="30px" width="25px" src={HTML} alt="html" /> </li>
-            <li className="flex align-middle"> <img height="30px" width="25px" src={CSS3} alt="html" /> </li>
-            <li className="flex align-middle"> <img height="30px" width="30px" src={REACT} alt="html" /> </li>
-            <li className="flex align-middle"> <img height="30px" width="30px" src={TAILWIND} alt="html" /> </li>
-            <li className="flex align-middle"> <img height="30px" width="30px" src={JAVASCRIPT} alt="html" /> </li>
-            <li className="flex align-middle"> <img height="30px" width="30px" src={TYPESCRIPT} alt="html" /> </li>
-            {/* <li className="flex align-middle"> <img height="10px" width="30px" src={MONGODB} alt="html" /> </li> */}
+          <ul>
+            <li className="flex align-middle"> <img src={HTML} alt="html" /> </li>
+            <li className="flex align-middle"> <img src={CSS3} alt="css3" /> </li>
+            <li className="flex align-middle"> <img src={REACT} alt="react" /> </li>
+            <li className="flex align-middle"> <img src={TAILWIND} alt="tailwind" /> </li>
+            <li className="flex align-middle"> <img src={JAVASCRIPT} alt="javascript" /> </li>
+            <li className="flex align-middle"> <img src={TYPESCRIPT} alt="typescript" /> </li>
+            <li className="flex align-middle"> <img src={MONGODB} alt="mongodb" /> </li>
           </ul>
         </div>
       </section>

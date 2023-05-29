@@ -9,12 +9,13 @@ interface Props {
   gh: string;
   demo: string;
   stack: string[];
+  cname?: string;
 }
 
-const Card = ({ title, desc, src, gh, demo, stack }: Props) => {
+const Card = ({ title, desc, src, gh, demo, stack, cname }: Props) => {
   return (
     <>
-      <div className="card">
+      <div className={`card ${cname}`}>
         <div className="card__text-side">
           <h1>{title}</h1>
           <p>{desc}</p>
