@@ -1,6 +1,6 @@
 import Card from "./Card";
-import REACT from "../assets/react.svg";
-import ABOUT from "../assets/about.jpg"
+// import REACT from "../assets/react.svg";
+// import ABOUT from "../assets/about.jpg"
 import DSA from "../assets/dsa.png";
 import DEAL from "../assets/deal.png";
 
