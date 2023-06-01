@@ -10,14 +10,15 @@ import TAILWIND from "../assets/icons/tailwind.svg";
 import TYPESCRIPT from "../assets/icons/typescript.svg";
 // import IMG from "../assets/img-new.jpg";
 import MONGODB from "../assets/icons/mongodb.svg";
+import NODEJS from "../assets/icons/nodejs.svg";
 
 const Hero = () => {
   return (
     <>
       <section id="hero" className="container hero">
-        <div className="flex">
+        <div className="hero__intro">
           <div className="hero__text-side">
-            <h1>Full-Stack React Developer</h1>
+            <h1>Full-Stack Developer</h1>
             <p>
               Hi, I'm Uttaran Das. A passionate Full-Stack React Developer based
               in Maharashtra, India. 📍
@@ -45,6 +46,7 @@ const Hero = () => {
             <li className="flex align-middle"> <img src={JAVASCRIPT} alt="javascript" /> </li>
             <li className="flex align-middle"> <img src={TYPESCRIPT} alt="typescript" /> </li>
             <li className="flex align-middle"> <img src={MONGODB} alt="mongodb" /> </li>
+            <li className="flex align-middle"> <img src={NODEJS} alt="nodejs" /> </li>
           </ul>
         </div>
       </section>

@@ -22,7 +22,7 @@ const AboutMe = () => {
           </div>
 
           <div className="text-side">
-            <h4>About me</h4>
+            <h1>ABOUT ME</h1>
             <h3>
               A dedicated Full-Stack Developer <br /> based in Maharashtra,
               India 📍

@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Contacts = () => {
   return (
     <>
-      <section className="container contact" id="contacts">
+      <section className="container contact" id="contact">
         <h1>CONTACT</h1>
         <p>Don't be shy! Hit me up!👇</p>
         <div className="contact__div">
