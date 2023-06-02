@@ -12,14 +12,14 @@ const Footer = () => {
             target="blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faGithub} />
+            <FontAwesomeIcon icon={faGithub} className="svg-inline--fa"/>
           </a>
           <a
             href="https://www.linkedin.com/in/uttaran-das/"
             target="blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon icon={faLinkedin} className="svg-inline--fa"/>
           </a>
         </div>
       </section>

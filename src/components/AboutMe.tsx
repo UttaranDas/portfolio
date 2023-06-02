@@ -9,16 +9,8 @@ const AboutMe = () => {
         <div className="about-content">
           <div className="img-side">
             <img src={AboutImg} alt="mee" className="img-side__main-img" />
-            <img
-              src={RoundedText}
-              alt="text"
-              className="rounded-text"
-            />
-            <img
-              src={WorkingEmoji}
-              alt="emoji"
-              className="work-emoji"
-            />
+            <img src={RoundedText} alt="text" className="rounded-text" />
+            <img src={WorkingEmoji} alt="emoji" className="work-emoji" />
           </div>
 
           <div className="text-side">
@@ -28,15 +20,15 @@ const AboutMe = () => {
               India 📍
             </h3>
             <p>
-              As a Front-Stack Developer, I possess an impressive arsenal of
-              skills in HTML, CSS, JavaScript, React, Tailwind, MongoDB, NodeJs,
-              Express and many more. I excel in designing and maintaining
-              responsive websites that offer a smooth user experience. My
-              expertise lies in crafting dynamic, engaging interfaces through
-              writing clean and optimized code and utilizing cutting-edge
-              development tools and techniques. I am also a team player who
-              thrives in collaborating with cross-functional teams to produce
-              outstanding web applications.
+              I'm Uttaran Das, a dedicated Full-Stack Developer
+              well-versed in React, JavaScript, TypeScript, Tailwind, Node.js,
+              C++, MongoDB, Firebase, CSS, Express, and Material-UI. A quick
+              learner, I thrive on continuous growth and possess a passion for
+              collaboration. As a team player, I actively contribute my skills
+              and adapt seamlessly to foster a harmonious working environment.
+              With a keen eye for detail and a commitment to excellence, I aim
+              to deliver exceptional solutions that leave a lasting impact.
+              Let's create something remarkable together!
             </p>
           </div>
         </div>

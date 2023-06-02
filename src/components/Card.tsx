@@ -23,8 +23,8 @@ const Card = ({ title, desc, src, gh, demo, stack, cname }: Props) => {
             {stack.map((st, index) => <p key={index}>{st}</p>)}
           </div>
           <div className="links">
-            <a href={gh} target="blank" rel="noreferrer"> Code <FontAwesomeIcon icon={faGithub}/> </a>
-            <a href={demo} target="blank" rel="noreferrer"> Live demo <FontAwesomeIcon icon={faExternalLink}/> </a>
+            <a href={gh} target="blank" rel="noreferrer"> Code <FontAwesomeIcon icon={faGithub} className="svg-inline-fa"/> </a>
+            <a href={demo} target="blank" rel="noreferrer"> Live demo <FontAwesomeIcon icon={faExternalLink} className="svg-inline-fa"/> </a>
           </div>
         </div>
         <img src={src} className="card__img" />

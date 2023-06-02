@@ -9,20 +9,29 @@ const Projects = () => {
     <>
       <section className="container project" id="projects">
         <h1 className="project__h1">PROJECTS</h1>
-        <p className="project__p">Each project is a unique piece of development 🧩</p>
+        <p className="project__p">
+          Each project is a unique piece of development 🧩
+        </p>
         <Card
           title="Online auction system"
-          desc="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
+          desc="Deal-Steal: An online auction platform powered by React and Node.js Express. Harnessing the real-time power of socket.io, it ensures seamless price tracking. With a sleek design crafted using Tailwind CSS and backed by MongoDB, it offers secure user authentication through Firebase. Unleash the thrill of winning with Deal-Steal!"
           src={DEAL}
-          stack={["React", "Tailwind", "MongoDb", "Firebase", "Socket.io", "Axios"]}
+          stack={[
+            "React",
+            "Tailwind",
+            "MongoDb",
+            "Firebase",
+            "Socket.io",
+            "Axios",
+          ]}
           gh="https://github.com/UttaranDas/DealSteal-Online-auction-system"
           demo="https://deal-steal-online-auction-system.vercel.app/"
         />
         <Card
           title="Ultimate DSA Helper"
-          desc="A webapp to help people keep track of their DSA practice."
+          desc="Your go-to webapp for streamlining DSA practice. Seamlessly manage topics, questions, and progress with ease. Built with React, Hooks, and Material UI, it offers a sleek and intuitive user experience for mastering the art of data structures and algorithms."
           src={DSA}
-          stack={["React", "Tailwind", "MongoDb"]}
+          stack={["React", "Material UI", "Hooks"]}
           gh="https://github.com/UttaranDas/ultimate-dsa-helper"
           demo="https://ultimate-dsa-helper.netlify.app/"
           cname="reverse"
