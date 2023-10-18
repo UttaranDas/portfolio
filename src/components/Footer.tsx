@@ -1,11 +1,13 @@
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
     <>
       <section className="container footer">
-        <p>Copyright © 2023. All rights are reserved</p>
+        <p>Made with  <FontAwesomeIcon icon={faHeart} style={{color: "#eb0046",}} />  by Uttaran</p>
+        
         <div>
           <a
             href="https://github.com/UttaranDas"

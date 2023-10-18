@@ -17,7 +17,7 @@ const Contacts = () => {
             </div>
             <div>
               <p>Location</p>
-              <a href="https://www.google.com/maps/place/Kalyan,+Maharashtra" target="blank" rel="noreferrer">Maharashtra, India</a>
+              <a href="https://www.google.com/maps/place/Lonavala,+Maharashtra" target="blank" rel="noreferrer">Maharashtra, India</a>
             </div>
           </div>
           <div className="contact__card">

@@ -25,7 +25,7 @@ const Projects = () => {
             "Axios",
           ]}
           gh="https://github.com/UttaranDas/DealSteal-Online-auction-system"
-          demo="http://13.126.180.126/"
+          demo="https://deal-steal-online-auction-system.vercel.app/"
         />
         <Card
           title="Ultimate DSA Helper"
